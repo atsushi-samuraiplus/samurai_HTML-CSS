@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+
+/*------------共通--------------*/
+ul{
+    list-style-type: none;
+}
+
+/*------------header--------------*/
+#herader{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+#header h1{
+    color:blue;
+}
+#nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li{
+    width: 18%;
+    text-align: center;
+    border-top: double 3px grey;
+    border-bottom:double 3px grey;
+    border-left:solid 1px grey;
+}
+#nav ul li:last-child{
+    border-right:solid 1px gray;
+}
+#nav ul li a{
+    display: block;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+#nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: blue;
+}
+
+/*------------container--------------*/
+#container{
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    clear: both;
+    display: grid;
+    grid-template-columns:75vw 25vw;
+}
+
+/*------------main--------------*/
+#main{
+    width: 95%;
+    padding: 10px 30px 10px 10px;
+}
+#top{
+    background-color: green;
+    height: 150px;
+}
+#top p{
+    color: white;
+    font-weight: bold;
+}
+#top p:first-child{
+    float: left;
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}
+#top p:last-child{
+    float: right;
+    margin-top: 70px;
+    font-size: 12px;
+    padding: 0 30px 0 0;
+}
+#post h2{
+    font-size: 180%;
+    padding:5px 0;
+}
+
+#sns{
+    margin: 0;
+}
+#sns ul {
+    display: flex;
+    padding:0;
+}
+
+#sns ul li{
+    padding:5px 50px;
+    margin:30px 15px 15px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#sns ul li:nth-child(1){
+    border:solid 1px #8EF1FF;
+    background-color: #8EF1FF;
+    border-radius: 5px;
+}
+#sns ul li:nth-child(2){
+    border:solid 1px #C69;
+    background-color: #C69;
+    border-radius: 5px;
+}
+#sns ul li:nth-child(3){
+    border:solid 1px #C69;
+    background-color: #C69;
+    border-radius: 5px;
+}
+#sns ul li:nth-child(4){
+    border:solid 1px #C69;
+    background-color: #C69;
+    border-radius: 5px;
+}
+#sns ul li:nth-child(5){
+    border:solid 1px #C69;
+    background-color: #C69;
+    border-radius: 5px;
+}
+
+/*------------kaisetsu--------------*/
+#kaisetsu{
+    clear: both;
+}
+#kaisetsu p{
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+/*------------menu--------------*/
+#menu{
+    display: grid;
+    grid-template-columns: 36vw 36vw;
+    grid-template-rows: 125px 125px;
+    margin: auto;
+}
+
+#menu p{
+    border: solid 3px black;
+    background-color: #888;
+    margin:15px 15px 0 0;
+    padding:10px 0 10px 10px;
+}
+
+/*------------list--------------*/
+#list{
+    margin-top: 80px;
+}
+
+#list h2{
+    border-bottom:solid 1px #c69;
+    border-left:solid 10px #c69;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    font-size: 120%;
+    
+}
+
+#list table{
+    width:100%;
+    margin-top:20px;
+}
+#list table tr th{
+    background-color: gray;
+    padding:10px 10px;
+    text-align: left;
+}
+
+.gray{
+    background-color: gray;
+    padding: 5px 10px;
+}
+#list table tr td{
+    padding: 5px 10px;
+    border-bottom: solid 1px gray;
+}
+
+/*------------list--------------*/
+#danraku{
+    margin-top: 80px;
+}
+
+#danraku h2{
+    border-bottom:solid 1px #c69;
+    border-left:solid 10px #c69;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    font-size: 120%;
+    
+}
+#danraku p{
+    width: 100%;
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+span{
+    font-weight: bold;
+}
+
+
+/*------------clearfix--------------*/
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*------------side--------------*/
+#side{
+    
+    padding:10px 10px 10px 30px;
+    
+}
+.box{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.box h2{
+    background-color: rgba(100,150,255,0.5);
+    border-top:solid 1px #C69;
+    padding: 5px 0 5px 10px;
+}
+.boxBody ul{
+    padding: 0;
+}
+.boxBody ul li{
+    padding: 5px 10px;
+    border-bottom: solid 1px gray;
+}
+
+
